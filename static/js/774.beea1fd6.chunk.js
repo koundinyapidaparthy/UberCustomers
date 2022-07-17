@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkuber_customers_clientside=self.webpackChunkuber_customers_clientside||[]).push([[774],{774:function(e,s,u){u.r(s);u(2791);var t=u(184);s.default=function(){return(0,t.jsx)("div",{children:"wallet"})}}}]);
+//# sourceMappingURL=774.beea1fd6.chunk.js.map

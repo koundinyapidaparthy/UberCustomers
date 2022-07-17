@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/774.beea1fd6.chunk.js","mappings":"sKAQA,UANe,WACb,OACE,mCAEH,C","sources":["Wallet/wallet.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst Wallet = () => {\r\n  return (\r\n    <div>wallet</div>\r\n  )\r\n}\r\n\r\nexport default Wallet"],"names":[],"sourceRoot":""}
