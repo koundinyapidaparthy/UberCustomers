@@ -3,7 +3,6 @@ import ReactTable from "../components/Table";
 import { useQuery } from "@apollo/client";
 import {PREVIOUSRIDES} from "../queries";
 import {AppLevelContext} from "../Context/CreateContext"
-import { CircularProgress } from "@mui/material";
 
 const tableHeaders=[
     // {
@@ -52,11 +51,9 @@ function RidesTaken() {
       setRows(previousRides)
     }
 })
-  if(loading){
-    return <CircularProgress />
-  }
+
   return (
-    <ReactTable rows={rows} tableHeaders={tableHeaders} />
+    <ReactTable rows={rows} loading={loading} tableHeaders={tableHeaders} />
   );
 }
 

@@ -6,11 +6,12 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import { CircularProgress } from "@mui/material";
 
 
 
 
-function ReactTable({tableHeaders,rows}) {
+function ReactTable({tableHeaders,rows,loading,error}) {
     
     function cellRender({key,value,index}){
       if(key==="id"){
@@ -19,6 +20,9 @@ function ReactTable({tableHeaders,rows}) {
       else{
         return value
       }
+    }
+    if(loading){
+      return <CircularProgress />
     }
   return (
     <TableContainer component={Paper}>

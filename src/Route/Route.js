@@ -8,10 +8,10 @@ const RoutesCreated = () => {
   const loggedIn =contextData.userDetails.loggedIn
   return (
     <div>
-        <Router >
+        <Router basename='/login'>
             {loggedIn && <Navbar />}
             <React.Suspense fallback={<h1>loading....</h1>}>
-              <Routes>
+              <Routes >
                   {routesPath.map(({exact,path,component:Component,forLogin},index)=>{
                     return <Route 
                               exact={exact}
