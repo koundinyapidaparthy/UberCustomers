@@ -2,7 +2,7 @@
   "name": "uber-customers-clientside",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://koundinyapidaparthy.github.io",
+  "homepage": "https://koundinyapidaparthy.github.io/UberCustomers",
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "@emotion/react": "^11.9.3",
