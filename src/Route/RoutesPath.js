@@ -7,34 +7,34 @@ const Wallet =lazy(()=>import("../Wallet/wallet"))
 const routesPath=[
     {
         component:UserLogin,
-        path:"/",
+        path:"/UberCustomers",
         exact:true,
         forLogin:true,
     },
     {
         component:UserLogin,
-        path:"/login",
+        path:"/UberCustomers/login",
         exact:true,
         forLogin:true,
     },
     {
         component:ApplyRide,
-        path:"/letsgo",
+        path:"/UberCustomers/letsgo",
         exact:true
     },
     {
         component:Rides,
-        path:"/rides",
+        path:"/UberCustomers/rides",
         exact:true
     },
     {
         component:Logout,
-        path:"/logout",
+        path:"/UberCustomers/logout",
         exact:true
     },
     {
         component:Wallet,
-        path:"/wallet",
+        path:"/UberCustomers/wallet",
         exact:true
     },
 ]

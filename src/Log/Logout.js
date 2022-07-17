@@ -12,7 +12,7 @@ const Logout = () => {
             userName:"",
         })
         localStorage.setItem("username", "");
-        navigate("/login")
+        navigate("/UberCustomers/login")
     },[])
         
   return (
