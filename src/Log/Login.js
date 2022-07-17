@@ -61,7 +61,7 @@ const UserLogin = () => {
             userName:loginDetails.username
           })
           localStorage.setItem("username", loginDetails.username);
-          navigate("/UberCustomers/letsgo") 
+          navigate("/letsgo") 
 
         }
         }
@@ -69,7 +69,7 @@ const UserLogin = () => {
     )
     React.useEffect(()=>{
       if(UserName){
-        navigate("/UberCustomers/letsgo") 
+        navigate("/letsgo") 
       }
     },[UserName])
     function handleClick () {

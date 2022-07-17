@@ -41,7 +41,7 @@ function ReactTable({tableHeaders,rows,loading,error}) {
             >
             {
                 Object.entries(row).map(([key,value])=> {
-                    return <TableCell key={index}  >{cellRender({key,value,index})}</TableCell> 
+                    return <TableCell key={key}  >{cellRender({key,value,index})}</TableCell> 
                 }) 
             }
             </TableRow>

@@ -26,7 +26,7 @@ function App() {
   }
 
   const [client]=React.useState(createApolloClient());
-  
+    console.log("hello")
   return (
     <ApolloProvider client={client}>
 

@@ -14,7 +14,7 @@ const Navbar = () => {
             label:"Previous Rides",
         },
         {
-            to:"/amout",
+            to:"/wallet",
             label:"Wallet",
         },
         {
